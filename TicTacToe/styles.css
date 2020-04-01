@@ -46,3 +46,10 @@ body {
 {
   border-bottom: 0;
 }
+
+.board.x .item:not(.x):not(.circle):hover{
+  content: '';
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+}
