@@ -2,12 +2,9 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   background-color: #e1f2fb;
-  font-family: arial;
-  font-size: 1.5rem;
 }
 
 .board {
@@ -15,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   justify-content: center;
+  justify-items: center;
   align-content: center;
   align-items: center;
   grid-template-columns: auto auto auto;
@@ -22,10 +20,12 @@ body {
 
 .item{
   border: 3px solid rgba(0, 0, 0, 0.8);
-  padding: 40px;
+  padding: 50px;
+  position: relative;
   display: flex;
-  font-size: 30px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -38,7 +38,7 @@ body {
   border-left: 0;
 }
 
-.item:nth-child(3n){
+.item:nth-child(3n+3){
   border-right: 0;
 }
 
@@ -47,9 +47,7 @@ body {
   border-bottom: 0;
 }
 
-.board.x .item:not(.x):not(.circle):hover{
-  content: '';
-  position: absolute;
-  width: 50vw;
-  height: 50vh;
+.item:hover {
+  border: 1px solid black;
+  border-radius: 5%;
 }
