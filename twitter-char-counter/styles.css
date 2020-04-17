@@ -1,0 +1,33 @@
+body {
+  background-color: rgba(53, 54, 56, 1);
+  color: white;
+}
+
+.jumbotron {
+  background-color: #00acee;
+  color: black;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+textarea {
+  border-radius: 2%;
+}
+
+.grey {
+  color: grey;
+}
+
+.red {
+  color: red;
+}
