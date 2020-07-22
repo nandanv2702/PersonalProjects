@@ -1,6 +1,6 @@
 # PersonalProjects
 
-This repository has all of my personal projects uploaded in it. Here's a list of all the projects I've worked on (two of them are a separate repo as I haven't transferred the files to this repository):
+This repository has all of my personal projects in it. These are small projects that I made in order to make my life (or someone else's life) easier... and also because I was plain bored. Here's a list of all the projects I've worked on:
 
 ## Android Debug Bridge (ADB) Python script
 [Link to File](https://github.com/nandanv2702/PersonalProjects/blob/master/adb.py) - I created a Python script to make it easier to install 10 apps on 10 android phones for Spark-A-Change Foundation. The phones will be given to underprivileged children who will use it for online classes. As it would take a long time and a lot of useless effort to manually download those 10 apps on every phone, I wrote this script that automatically installs the apps using the APKs that I downloaded online. So, all it takes it setting up the phone, connecting it to your laptop, and running this script using 'Python3 adb.py'! 
