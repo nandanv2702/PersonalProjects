@@ -2,6 +2,9 @@
 
 These are small projects that I made in order to make my life (or someone else's life) easier... and also because I was plain bored. Here's a list of all the projects I've worked on:
 
+## RateMyProfessor UW-Madison Site
+[Demo Link](https://nandanv2702.github.io/ratemyprof-fetch/) - this is something I created using the Fetch API in Javascript to dynamically render a website to output search results for professors' RMP profiles specific to UW-Madison. The RMP website can get quite cluttered/slow to load, so this makes it easier to use the site. All data shown on my website is in sync with that of RMP.
+
 ## Android Debug Bridge (ADB) Python script
 [Link to Github Folder](https://github.com/nandanv2702/PersonalProjects/tree/master/adb-android) - I created a Python script to make it easier to install and uninstall apps on 10 android phones for Spark-A-Change Foundation. The phones will be given to underprivileged children who will use it for online classes. As it would take a long time and a lot of useless effort to manually download those 10 apps on every phone, I wrote this script that automatically installs the apps using the APKs that I downloaded online. It also uninstalls certain apps that we didn't need, so I created a script to show the names of the packages that we don't need [adb-diff.py](https://github.com/nandanv2702/PersonalProjects/tree/master/adb-android/adb-diff.py). So, all it takes it setting up the phone, connecting it to your laptop, and running this script using 'Python3 adb.py'! 
 #AutomateTheBoringStuffWithPython they say
